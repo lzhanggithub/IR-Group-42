@@ -1,0 +1,1 @@
+java -jar bin/RankLib.jar -train validation/feature_train.txt -validate validation/feature_valid.txt -test validation/feature_test.txt -ranker 6 -metric2t NDCG@20 -save mymodel.txt
